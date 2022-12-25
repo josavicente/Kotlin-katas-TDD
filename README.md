@@ -2,5 +2,5 @@
 
 Katas desarrolladas con Kotlin aplicando TDD
 
-1. [FizzBuz Kata](/Kotlin-katas-tdd/Kata-Instructions/fizzbuzz.mdfizzbuzz.md)
+1. [FizzBuz Kata](https://github.com/josavicente/Kotlin-katas-TDD/blob/main//Kata-Instructions/fizzbuzz.md)
 2. [Fibonnacci Kata](/Kotlin-katas-tdd/Kata-Instructions/fibonacci.md)
