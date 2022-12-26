@@ -12,7 +12,7 @@ package es.josavicentedev.kataskotlin.es.josavicentedev.kataskotlin
 
 class Anagrama {
     fun checkIfAnagrama(firstWord: String, secondWord: String): Boolean {
-        if(firstWord.lowercase()== secondWord.lowercase()) return true
+        if(firstWord.lowercase()== secondWord.lowercase()) return false
         return firstWord.lowercase().toCharArray().sortedArray().contentEquals(secondWord.lowercase().toCharArray().sortedArray())
     }
 

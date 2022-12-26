@@ -9,10 +9,10 @@ import org.testng.annotations.Test
 class AnagramaTest {
 
     @Test
-    fun ShouldReturnTrueIFBothWordsAreTheSame(){
+    fun ShouldReturnFalseIFBothWordsAreTheSame(){
         val anagrama = Anagrama()
         val result : Boolean = anagrama.checkIfAnagrama("ola", "ola")
-        assertEquals(result, true)
+        assertEquals(result, false)
     }
     @Test
     fun ShouldReturnTrueIFBothWordsOrderedAreTheSame(){
