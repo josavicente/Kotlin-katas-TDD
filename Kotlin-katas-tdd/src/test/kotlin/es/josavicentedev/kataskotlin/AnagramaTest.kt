@@ -1,7 +1,6 @@
 package es.josavicentedev.kataskotlin
 
 import es.josavicentedev.kataskotlin.es.josavicentedev.kataskotlin.Anagrama
-import org.testng.annotations.BeforeMethod
 
 import org.testng.Assert.*
 import org.testng.annotations.Test
